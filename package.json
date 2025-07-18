@@ -1,0 +1,18 @@
+{
+  "name": "warlanguage-collab-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for COMMANDANT playground collaboration",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3",
+    "uuid": "^11.1.0",
+    "cors": "^2.8.5"
+  },
+  "keywords": ["websocket", "collaboration", "real-time"],
+  "author": "",
+  "license": "MIT"
+}
